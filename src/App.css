@@ -171,7 +171,7 @@ html, body {
   height: 900px;
   background-size: cover;
   background-attachment: fixed;
-  background-image: url("/contact2.png")
+  background-image: url("/contact2.png");
   }
   textarea {
     resize: none;

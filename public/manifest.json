@@ -1,6 +1,15 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Portfolio",
+  "name": "Portfolio react rework",
+  "homepage": "https://o0pmitev.github.io/react-portfolio-rework",
+  "scripts": {
+		"start": "react-scripts start",
+		"build": "react-scripts build",
+		"predeploy": "yarn run build",
+		"deploy": "gh-pages -d build",
+		"test": "react-scripts test",
+		"eject": "react-scripts eject"
+},  
   "icons": [
     {
       "src": "favicon.ico",
