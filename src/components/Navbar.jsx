@@ -16,7 +16,7 @@ export default class Navbar extends Component {
                 <a className="nav-link" href="#slides">Home</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#skillsID">Skills</a>
+                <a className="nav-link" href="#skillsID" data-nav-section="#skillsID">Skills</a>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="#aboutMeID">About</a>

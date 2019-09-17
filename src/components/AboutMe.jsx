@@ -21,7 +21,7 @@ export default class AboutMe extends Component {
             </p>
           </div>
           <div className="col-lg-6">
-          <img src={process.env.PUBLIC_URL + '/about-me.jpg'} className="img-fluid" />
+          <center><img src={process.env.PUBLIC_URL + '/about-me.jpg'} className="img-fluid" /></center>
           </div>
         </div>
       </div>
